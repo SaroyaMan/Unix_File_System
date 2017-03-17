@@ -1,0 +1,20 @@
+This software is the first project in course UNIX system programming.
+
+
+How to use:
+build & compile all project with 'make all'.
+First run the server application.
+Second run a client application.
+
+The client has 8 possible options of input:
+	LS - prints out all the data the server holds.
+	STORE - store a file inside the server (e.g STORE myFile.txt)
+	STORE COMPRESS - store a compressed file inside the server and it decompresses it (e.g STORE COMPRESS myFile.txt)
+	STORE ENCODE - store an encoded file inside the server and it decodes it (e.g STORE ENCODE myFile.txt)
+	LOAD - loads a file from the server and store it locally in client's CWD/FilesFromServer.
+	LOAD COMPRESS - loads a compressed file from the server and it stored uncompressed locally in client's CWD.
+	LOAD ENCODE - loads an encoded file from the server and it stored decoded locally in client's CWD.
+	EXIT - quits the client's application.
+
+How to remove:
+remove all files with 'make clean'.
